@@ -13,6 +13,7 @@ Machine Learning / Artificial Intelligence (Introductory Level)
 ## Description
 This submission contains a research-based assignment that introduces the fundamental concepts of Machine Learning. The work was completed through independent research using books, scholarly articles, and reliable online resources. All explanations are written in the author’s own words to demonstrate understanding rather than memorization.
 
+
 The assignment covers:
 1. Definition of Machine Learning with a real-life example  
 2. Comparison between Supervised and Unsupervised Learning  
