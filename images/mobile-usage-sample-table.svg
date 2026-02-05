@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+  <style>
+    .hdr { fill: #2f3542; }
+    .hdr-text { fill: #ffffff; font: 600 14px Arial, sans-serif; }
+    .cell { fill: #ffffff; }
+    .row:nth-child(even) .cell { fill: #f5f7fa; }
+    .text { fill: #2d3436; font: 13px Arial, sans-serif; }
+    .outline { stroke: #ced6e0; stroke-width: 1; fill: none; }
+  </style>
+  <!-- Column positions -->
+  <!-- x positions: [10, 90, 230, 390, 510, 650, 820] widths: [80,140,160,120,140,170,160] -->
+  <!-- Header -->
+  <rect x="10" y="10" width="980" height="36" class="hdr" rx="6" />
+  <g transform="translate(20,33)" class="hdr-text">
+    <text x="0">Age</text>
+    <text x="80">Phone_Type</text>
+    <text x="220">Screen_Time_Hours</text>
+    <text x="380">Apps_Used</text>
+    <text x="500">Internet_Type</text>
+    <text x="640">Battery_Drop (%)</text>
+    <text x="810">Needs_Charging</text>
+  </g>
+
+  <!-- Rows -->
+  <g class="row">
+    <rect x="10" y="56" width="980" height="36" class="cell" rx="4" />
+    <g transform="translate(20,79)" class="text">
+      <text x="0">22</text>
+      <text x="80">Android</text>
+      <text x="220">6.5</text>
+      <text x="380">12</text>
+      <text x="500">Mobile Data</text>
+      <text x="640">75</text>
+      <text x="810">Yes</text>
+    </g>
+  </g>
+  <g class="row">
+    <rect x="10" y="92" width="980" height="36" class="cell" rx="4" />
+    <g transform="translate(20,115)" class="text">
+      <text x="0">28</text>
+      <text x="80">iPhone</text>
+      <text x="220">4.2</text>
+      <text x="380">8</text>
+      <text x="500">WiFi</text>
+      <text x="640">55</text>
+      <text x="810">No</text>
+    </g>
+  </g>
+  <g class="row">
+    <rect x="10" y="128" width="980" height="36" class="cell" rx="4" />
+    <g transform="translate(20,151)" class="text">
+      <text x="0">19</text>
+      <text x="80">Android</text>
+      <text x="220">7.8</text>
+      <text x="380">15</text>
+      <text x="500">Mobile Data</text>
+      <text x="640">82</text>
+      <text x="810">Yes</text>
+    </g>
+  </g>
+  <g class="row">
+    <rect x="10" y="164" width="980" height="36" class="cell" rx="4" />
+    <g transform="translate(20,187)" class="text">
+      <text x="0">35</text>
+      <text x="80">iPhone</text>
+      <text x="220">3.5</text>
+      <text x="380">6</text>
+      <text x="500">WiFi</text>
+      <text x="640">48</text>
+      <text x="810">No</text>
+    </g>
+  </g>
+  <g class="row">
+    <rect x="10" y="200" width="980" height="36" class="cell" rx="4" />
+    <g transform="translate(20,223)" class="text">
+      <text x="0">24</text>
+      <text x="80">Android</text>
+      <text x="220">5.9</text>
+      <text x="380">10</text>
+      <text x="500">WiFi</text>
+      <text x="640">68</text>
+      <text x="810">Yes</text>
+    </g>
+  </g>
+
+  <!-- Outline -->
+  <rect x="10" y="10" width="980" height="226" class="outline" rx="8" />
+</svg>

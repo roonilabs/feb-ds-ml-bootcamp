@@ -1,0 +1,48 @@
+age,phone_type,daily_screen_time_hours,apps_used_per_day,internet_type,battery_drop_per_day,needs_charging_more_than_once
+18,Android,5,10,WiFi,65,Yes
+19,iPhone,3,7,Mobile Data,40,No
+20,Android,6,12,WiFi,75,Yes
+21,Android,4,9,Mobile Data,55,No
+22,iPhone,5,11,WiFi,60,Yes
+23,Android,7,15,WiFi,85,Yes
+24,Android,2,6,Mobile Data,35,No
+25,iPhone,6,13,WiFi,70,Yes
+26,Android,4,8,Mobile Data,50,No
+27,iPhone,5,10,WiFi,65,Yes
+28,Android,3,7,Mobile Data,45,No
+29,Android,6,14,WiFi,80,Yes
+30,iPhone,4,9,WiFi,55,No
+21,Android,7,16,Mobile Data,90,Yes
+22,iPhone,2,5,WiFi,30,No
+23,Android,5,11,Mobile Data,60,Yes
+24,iPhone,6,12,WiFi,70,Yes
+25,Android,3,8,Mobile Data,40,No
+26,Android,4,9,WiFi,55,No
+27,iPhone,7,15,WiFi,85,Yes
+28,Android,5,10,Mobile Data,65,Yes
+29,iPhone,3,6,WiFi,35,No
+30,Android,6,14,WiFi,75,Yes
+19,Android,4,9,Mobile Data,50,No
+20,iPhone,5,11,WiFi,60,Yes
+21,Android,6,13,WiFi,70,Yes
+22,Android,2,5,Mobile Data,30,No
+23,iPhone,7,16,WiFi,85,Yes
+24,Android,4,8,Mobile Data,55,No
+25,iPhone,6,12,WiFi,75,Yes
+26,Android,3,7,Mobile Data,45,No
+27,Android,5,10,WiFi,65,Yes
+28,iPhone,4,9,WiFi,55,No
+29,Android,6,14,Mobile Data,80,Yes
+30,iPhone,2,6,WiFi,35,No
+18,Android,7,15,WiFi,90,Yes
+19,iPhone,3,8,Mobile Data,40,No
+20,Android,5,11,WiFi,65,Yes
+21,Android,4,9,Mobile Data,55,No
+22,iPhone,6,13,WiFi,75,Yes
+23,Android,2,6,Mobile Data,35,No
+24,iPhone,7,15,WiFi,85,Yes
+25,Android,5,10,Mobile Data,60,Yes
+26,iPhone,4,9,WiFi,55,No
+27,Android,6,14,WiFi,80,Yes
+28,iPhone,3,7,Mobile Data,45,No
+29,Android,5,11,WiFi,65,Yes
