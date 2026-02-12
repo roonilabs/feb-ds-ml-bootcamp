@@ -1,0 +1,131 @@
+Practical Assignment: Data Foundations for Machine Learning
+Title
+Analysis of Factors Influencing Annual Salaries in the Technology Sector
+1. Dataset Description and Collection Method
+
+This study investigates salary patterns within the technology sector by analyzing how key job-related factors influence annual income levels.
+The dataset was manually compiled by reviewing 54 active job postings from reputable professional platforms, including LinkedIn, Indeed, and selected local company career websites.
+
+Each posting was examined individually, and relevant attributes—such as required experience, education level, work arrangement, company size, and listed salary—were systematically recorded in a spreadsheet.
+
+To ensure consistency:
+
+Salary ranges were converted to a single midpoint value.
+
+Hourly wages were transformed into annual salaries using a full-time assumption of 40 hours per week and 52 weeks per year.
+
+This dataset was created specifically for academic purposes and was not obtained from any pre-existing public dataset, ensuring originality and relevance to the assignment.
+
+2. Features (X) and Target Label (y)
+
+To support meaningful machine learning analysis, the following variables were collected.
+
+Input Features (X)
+Feature Name	Type	Description
+Years of Experience	Numerical	Total years of relevant professional experience required
+Education Level	Categorical	Highest degree required (High School, Bachelor’s, Master’s, PhD)
+Remote Status	Categorical	Work arrangement: Remote, Hybrid, or On-site
+Company Size	Categorical	Organization scale: Small (<50), Medium (50–500), Large (500+)
+Programming Skills Count	Numerical	Number of technical skills or technologies mentioned in the posting
+Output Variable (Label y)
+
+Annual Salary (USD) – Represents total yearly compensation.
+When a salary range was provided, the midpoint value was recorded.
+
+This structure makes the dataset highly suitable for supervised learning, particularly regression modeling.
+
+3. Dataset Structure
+
+Total Samples (Rows): 54
+
+Total Variables (Columns): 6
+
+5 input features
+
+1 target label
+
+Sample Data (First 5 Records)
+Experience (Years)	Education	Remote	Company Size	Tech Count	Salary (USD)
+3	Bachelor’s	Remote	Medium	4	85,000
+0	Bachelor’s	On-site	Large	2	55,000
+7	Master’s	Hybrid	Small	5	110,000
+5	Unknown	Remote	Medium	3	95,000
+10	PhD	Remote	Large	6	165,000
+4. Data Quality Challenges (Real-World Characteristics)
+
+Because the dataset was derived from real job advertisements, several practical data issues were observed:
+
+Missing values: Around 15% of postings did not specify education requirements.
+
+Formatting inconsistencies: Some salaries appeared as hourly wages and required annual conversion.
+
+Salary ranges: Using midpoint estimates introduces approximation noise.
+
+Textual variations and typos: Examples include “Bachlor” instead of “Bachelor’s”.
+
+Subjective skill counting: The number of programming skills depends on how explicitly technologies are listed in the posting.
+
+These imperfections accurately reflect real industry data and provide valuable material for data cleaning, preprocessing, and feature engineering in later stages of the machine learning workflow.
+
+5. Machine Learning Applications
+Primary Task: Regression
+
+Objective:
+Predict the exact annual salary based on:
+
+Experience level
+
+Education requirement
+
+Work arrangement
+
+Company size
+
+Technical skill demand
+
+This supports algorithms such as:
+
+Linear Regression
+
+Decision Tree Regressor
+
+Random Forest Regressor
+
+Alternative Task: Classification
+
+Salaries may be categorized into:
+
+High Pay: Above $100,000
+
+Standard Pay: $100,000 or below
+
+This enables binary classification models useful for job market analysis and salary prediction tools.
+
+Additional Analytical Opportunities
+
+Feature importance analysis to determine the strongest salary predictors.
+
+Comparison of remote vs. on-site compensation trends.
+
+Exploratory data visualization for industry insights.
+
+6. Conclusion
+
+This assignment provided hands-on experience in collecting, structuring, and documenting a real-world dataset suitable for machine learning.
+By manually extracting salary information from live technology job postings, the dataset captures authentic data challenges, including:
+
+Missing information
+
+Inconsistent formatting
+
+Estimation uncertainty
+
+In future stages, the dataset will undergo:
+
+Data cleaning and preprocessing
+
+Categorical encoding and scaling
+
+Model training and evaluation
+
+This process will help bridge the gap between theoretical machine learning concepts and practical real-world data analysis, strengthening foundational data science skills.

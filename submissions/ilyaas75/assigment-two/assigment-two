@@ -1,0 +1,163 @@
+Data Foundations for Machine Learning
+Practical Assignment Research Paper
+Title: Student Daily Study Habits and Academic Performance Dataset
+1. Dataset Topic and Collection Method
+
+This dataset was designed to explore the relationship between students’ daily study habits, lifestyle behaviors, and academic performance.
+The data was manually collected through a short survey questionnaire distributed to students within my class and nearby study groups.
+
+The questionnaire gathered the following information:
+
+Age and gender
+
+Average daily study hours
+
+Average sleep duration per night
+
+Daily time spent on social media
+
+Class attendance percentage
+
+Most recent exam score (used as the prediction target)
+
+A total of 60 student responses were collected over three days.
+Because the responses were first written manually and later entered into a spreadsheet, the dataset naturally contains minor errors, missing values, and inconsistencies, reflecting real-world data collection challenges.
+
+2. Features (X) and Label (y)
+
+In Machine Learning:
+
+Features (X) are the input variables used for prediction.
+
+Label (y) is the output variable we aim to predict.
+
+Input Features (X)
+
+Age – Student age in years (numeric)
+
+Gender – Male or Female (categorical)
+
+Study_Hours_Per_Day – Average daily study time (numeric)
+
+Sleep_Hours – Average sleep duration per night (numeric)
+
+Social_Media_Hours – Daily time spent on social media (numeric)
+
+Attendance_Percentage – Percentage of attended classes (numeric)
+
+Output Label (y)
+
+Exam_Score – Most recent exam result out of 100 (numeric)
+
+Objective:
+To predict students’ exam scores based on their study habits and lifestyle characteristics.
+
+3. Dataset Structure
+
+Total Samples (Rows): 60 students
+
+Total Variables (Columns): 7
+
+6 input features
+
+1 output label
+
+Sample Dataset (First 10 Records)
+Age	Gender	Study Hours	Sleep Hours	Social Media Hours	Attendance %	Exam Score
+20	Male	3	6	4	75	65
+22	Female	5	7	2	88	78
+19	Male	2	5	5	60	55
+21	Female	4	6	3	82	72
+23	Male	6	7	1	90	85
+20	Female	3	6	4	70	66
+24	Male	5	8	2	92	88
+22	Female	4	7	3	85	75
+19	Male	1	5	6	55	50
+21	Female	5	7	2	87	80
+4. Data Quality Issues
+
+Since the dataset was collected from real student responses, several realistic data quality challenges appeared:
+
+Missing values: Some students did not report sleep hours or social media usage.
+
+Typing errors: Certain attendance values were written as words (e.g., “eighty”) instead of numbers.
+
+Outliers: One response indicated 12 study hours per day, which may be unrealistic.
+
+Class imbalance: More male students responded than female students.
+
+Inconsistent formats: Some exam scores were written as “75/100” instead of 75.
+
+These imperfections make the dataset suitable for practicing data cleaning, preprocessing, and validation in real Machine Learning workflows.
+
+5. Possible Machine Learning Applications
+
+This dataset supports several Machine Learning tasks:
+
+5.1 Regression
+
+Predicting the numerical exam score using:
+
+Linear Regression
+
+Decision Tree Regressor
+
+Random Forest Regressor
+
+5.2 Classification
+
+Exam scores can be categorized into performance levels:
+
+Fail: 0–49
+
+Pass: 50–69
+
+Good: 70–84
+
+Excellent: 85–100
+
+Applicable algorithms include:
+
+Logistic Regression
+
+K-Nearest Neighbors (KNN)
+
+Decision Trees
+
+5.3 Clustering
+
+Students may be grouped based on behavioral similarity, such as:
+
+High study time with low social media usage
+
+Low sleep associated with low performance
+
+Balanced lifestyle linked to high performance
+
+K-Means clustering can reveal hidden behavioral patterns.
+
+6. Conclusion
+
+This project demonstrates the first critical stage of the Machine Learning pipeline: real-world data collection.
+Unlike pre-existing datasets, this data was gathered directly from students, making it realistic, imperfect, and educationally valuable.
+
+The dataset contains:
+
+60 samples
+
+7 variables
+
+Missing values, inconsistencies, and outliers
+
+It is well-suited for regression, classification, and clustering experiments.
+Future steps will involve data cleaning, encoding, normalization, and model training, enabling meaningful prediction and analysis.
+
+Overall, this assignment strengthens essential data science skills, including:
+
+Data collection
+
+Documentation
+
+Data quality assessment
+
+Preparation for Machine Learning modeling
