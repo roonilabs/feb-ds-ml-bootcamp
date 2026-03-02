@@ -12,14 +12,30 @@ I used the **Manual Survey & Direct Interview** method. I asked 120 people from 
 
 ## 2. Description of Features & Labels
 
-| Feature | Name | Description | Type |
-|---------|------|-------------|------|
-| X1 | Gender | The gender of the participant (Male / Female / M / F / female) | Categorical |
-| X2 | Daily_Data_Usage | Amount of mobile internet used per day (e.g., 2.5, 3GB, 2500MB) | Numerical / Categorical |
-| X3 | Daily_Call_Minutes | Total minutes spent on phone calls per day | Numerical |
-| X4 | Daily_Income_USD | The amount of money earned per day | Numerical |
-| X5 | Transport_Cost_USD | Daily transport cost | Numerical |
-| y | Daily_Expense_Level | Category showing whether a person’s spending level is Low, Medium, or High | Categorical |
+## Dataset Features
+
+**Feature 1: Gender (X1)**  
+The gender of the participant (Male / Female / M / F / female).  
+**Type:** Categorical  
+
+**Feature 2: Daily_Data_Usage (X2)**  
+Amount of mobile internet used per day (e.g., 2.5, 3GB, 2500MB).  
+**Type:** Numerical / Categorical  
+
+**Feature 3: Daily_Call_Minutes (X3)**  
+Total minutes spent on phone calls per day.  
+**Type:** Numerical  
+
+**Feature 4: Daily_Income_USD (X4)**  
+The amount of money earned per day.  
+**Type:** Numerical  
+
+**Feature 5: Transport_Cost_USD (X5)**  
+Daily transport cost.  
+**Type:** Numerical  
+
+**Label (y): Expense_Level**  
+A category showing if the participant's daily expenses are Low, Medium, or High (The result we want to predict).  
 
 ---
 
