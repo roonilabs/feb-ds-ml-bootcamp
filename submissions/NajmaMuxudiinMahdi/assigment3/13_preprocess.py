@@ -3,7 +3,7 @@ import numpy as np
 
 from sklearn.preprocessing import StandardScaler
 
-CSV_PATH  =  'car1.csv'
+CSV_PATH  =  'car13.csv'
 
 df   = pd.read_csv(CSV_PATH )
 
@@ -107,7 +107,7 @@ print("\n=== FINAL MISSING VALUES ===")
 print(df.isnull().sum())
 
 # 10 Save
-OUT_PATH = "clean_car_dataset.csv"
+OUT_PATH = "car_13_clean_ready.csv"
 df.to_csv(OUT_PATH, index=False)  
 
 

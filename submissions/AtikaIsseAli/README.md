@@ -1,26 +1,30 @@
-🎓 Data Science Portfolio: Atika Isse Ali
-Welcome to my data science journey. This repository contains my progress and assignments for the DS-ML Bootcamp.
+# ⚡ Data Science & ML Portfolio | Atika Isse Ali
+---
 
-✅ Submissions Overview
-📂 Assignment 1: ML Fundamentals
-Focus: Machine Learning Fundamentals & Research.
+Welcome to my **Data Science and Machine Learning** journey. This repository documents the progress, technical implementations, and results of my training projects.
 
-Key Learning: Understanding the core concepts of model training and data observation.
+## 🚀 Projects Overview
 
-📂 Assignment 2: Study Habits Dataset
-Project: Original Dataset — Student Study Habits in Mogadishu.
+| ID | Assignment Name | Domain | Techniques |
+|:---|:---|:---|:---|
+| **01** | **ML Fundamentals** | Theory | Model Training, Validation |
+| **02** | **Student Study Habits** | Analysis | Data Cleaning, Prediction |
+| **03** | **Car Sales Data** | Prep | Data Cleaning, Feature Eng |
+| **04** | **House Price Predictor** | Regression | Linear Regression, MSE |
+| **05** | **SMS Spam Detection** | NLP | Logistic Reg, Random Forest |
+| **06** | **Customer Segmentation**| Clustering | K-Means, Silhouette Score |
 
-Data Size: 52 samples with 7 key attributes.
 
-Target: GPA prediction based on daily lifestyle factors.
 
-🛠️ Data Quality Notes: This dataset includes real-world issues like missing values (Sleep/Attendance) and categorical inconsistencies to practice data cleaning.
+---
 
-📂 Assignment 3: Car Data Preprocessing
-Project: Cleaning and Feature Engineering for Car Sales Data.
+## 🛠️ Technical Stack
+`Python` · `Pandas` · `NumPy` · `Scikit-Learn` · `Matplotlib` · `Jupyter`
 
-Tasks: Handled missing values (median/mode), fixed formatting ($ signs/typos), and created new features like CarAge.
+---
 
-Tools: Python, Pandas, Scikit-Learn.
+## ⚠️ Integrity Notice
+**This repository is the personal work of Atika Isse Ali.** Please do not modify, remove, or change any files in this repository. 
 
-⚠️ IMPORTANT NOTICE This repository is the personal work of Atika Isse Ali. Please do not modify or change any files in this folder.
+---
+*Last Updated: September 2025*
